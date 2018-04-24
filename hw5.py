@@ -5,7 +5,7 @@ import pickle
 
 
 def main(filename):
-    lines=open('i_have_a_dream.txt').readlines()
+    lines=open(filename).readlines()
     #需要換檔案名?
     for line in lines:
         line=line.strip()
